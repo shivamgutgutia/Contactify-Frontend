@@ -46,7 +46,7 @@ Follow these steps to set up and run the Contact File Backend Service locally:
       3. **Configuration**
          - Create a `.env` file in the root directory.
          - Define environment variables as in `.env.example`.
-         - Define the API URL as `http://localhost:5000/api`
+         - set NEXT_PUBLIC_API_URL = http://localhost:5000/api
 
       4. **Build the website**
          ```bash
